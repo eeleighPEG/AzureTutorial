@@ -15,14 +15,14 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         ''ENGINE': 'django.db.backends.mysql',
-        'NAME': 'DATABASE_NAME_GOES_HERE',
-        'USER': 'USERNAME_GOES_HERE',
-        'PASSWORD': 'PASSWORD_GOES_HERE',
-        'HOST': 'HOSTNAME_GOES_HERE',
+        'NAME': 'PEGTestAPP1',
+        'USER': 'b6b11c81b02757',
+        'PASSWORD': '75beafaa',
+        'HOST': 'us-cdbr-azure-west-a.cloudapp.net',
         'PORT': '3306',
-        'OPTIONS': {'ssl': {'ca':'tutorial/cleardb-ca.cer', 
-            'cert':'tutorial/client-cert.cer', 
-            'key':'tutorial/client-key-nopass.cer'},},
+        'OPTIONS': {'ssl': {'ca':'tutorial/cleardb-ca.pem', 
+            'cert':'tutorial/d174582ce3812a-cert.pem', 
+            'key':'tutorial/d174582ce3812a-key-nopass.pem'},},
     }
 }
 
